@@ -116,6 +116,10 @@ npm run dev
 - Node.js 18+
 - A package manager (npm, pnpm, yarn, or bun)
 
+## Acknowledgments
+
+This skill is inspired by [frontend-slides](https://github.com/zarazhangrui/frontend-slides) by [@zarazhangrui](https://github.com/zarazhangrui).
+
 ## License
 
 MIT
