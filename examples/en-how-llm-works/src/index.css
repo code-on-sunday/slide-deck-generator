@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Source+Serif+4:ital,wght@0,400;1,400&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --color-bg: #faf9f7;
+  --color-text: #1a1a1a;
+  --color-accent: #c41e3a;
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'Source Serif 4', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1a1a;
+  overflow: hidden;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-cap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--color-accent);
+  float: left;
+  font-size: clamp(3rem, 4vw, 4.5rem);
+  line-height: 0.8;
+  margin-right: 0.08em;
+  margin-top: 0.05em;
+}
+
+.pull-quote {
+  position: relative;
+  font-style: italic;
+  font-family: var(--font-body);
+}
+
+.pull-quote::before {
+  content: '\201C';
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--color-accent);
+  font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 1;
+  position: absolute;
+  left: -0.5em;
+  top: -0.2em;
+  font-style: normal;
+}
+
+.pull-quote::after {
+  content: '\201D';
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--color-accent);
+  font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 1;
+  font-style: normal;
+  margin-left: 0.05em;
+}
+
+hr.accent {
+  border: none;
+  height: 1px;
+  background: var(--color-accent);
+  margin: 1.5rem 0;
+  opacity: 0.6;
+}

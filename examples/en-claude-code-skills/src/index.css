@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Outfit:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-navy: #0a0f1c;
+  --color-cyan: #00ffcc;
+  --color-magenta: #ff00aa;
+  --color-white: #ffffff;
+}
+
+@theme inline {
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+  --color-navy: #0a0f1c;
+  --color-cyan: #00ffcc;
+  --color-magenta: #ff00aa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-navy);
+  color: var(--color-white);
+  font-family: var(--font-body);
+  overflow: hidden;
+}
+
+.grid-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 39px,
+      rgba(0, 255, 204, 0.03) 39px,
+      rgba(0, 255, 204, 0.03) 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 39px,
+      rgba(0, 255, 204, 0.03) 39px,
+      rgba(0, 255, 204, 0.03) 40px
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.neon-glow {
+  box-shadow:
+    0 0 20px rgba(0, 255, 204, 0.3),
+    0 0 40px rgba(0, 255, 204, 0.1);
+}
+
+.neon-glow-magenta {
+  box-shadow:
+    0 0 20px rgba(255, 0, 170, 0.3),
+    0 0 40px rgba(255, 0, 170, 0.1);
+}
+
+.neon-text {
+  text-shadow:
+    0 0 10px rgba(0, 255, 204, 0.5),
+    0 0 20px rgba(0, 255, 204, 0.3),
+    0 0 40px rgba(0, 255, 204, 0.1);
+}
+
+.neon-text-magenta {
+  text-shadow:
+    0 0 10px rgba(255, 0, 170, 0.5),
+    0 0 20px rgba(255, 0, 170, 0.3),
+    0 0 40px rgba(255, 0, 170, 0.1);
+}
+
+.particle-dot {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: rgba(0, 255, 204, 0.4);
+  border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+export { default as Slide01 } from './Slide01';
+export { default as Slide02 } from './Slide02';
+export { default as Slide03 } from './Slide03';
+export { default as Slide04 } from './Slide04';
+export { default as Slide05 } from './Slide05';
+export { default as Slide06 } from './Slide06';
+export { default as Slide07 } from './Slide07';
+export { default as Slide08 } from './Slide08';
+export { default as Slide09 } from './Slide09';
+export { default as Slide10 } from './Slide10';
+export { default as Slide11 } from './Slide11';
+export { default as Slide12 } from './Slide12';
+export { default as Slide13 } from './Slide13';
+export { default as Slide14 } from './Slide14';
+export { default as Slide15 } from './Slide15';

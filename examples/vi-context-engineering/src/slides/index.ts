@@ -1,0 +1,15 @@
+export { default as Slide01 } from './01-title';
+export { default as Slide02 } from './02-problem';
+export { default as Slide03 } from './03-discussion';
+export { default as Slide04 } from './04-concept';
+export { default as Slide05 } from './05-context-window';
+export { default as Slide06 } from './06-components';
+export { default as Slide07 } from './07-system-vs-user';
+export { default as Slide08 } from './08-few-shot';
+export { default as Slide09 } from './09-rag';
+export { default as Slide10 } from './10-tool-use';
+export { default as Slide11 } from './11-formula';
+export { default as Slide12 } from './12-comparison';
+export { default as Slide13 } from './13-coding-assistant';
+export { default as Slide14 } from './14-takeaway';
+export { default as Slide15 } from './15-resources';
