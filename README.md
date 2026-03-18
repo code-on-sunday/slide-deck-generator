@@ -2,7 +2,7 @@
 
 An AI skill for coding agents that creates production-ready, browser-based presentation slide decks with **interactive UI** using React + Vite + Framer Motion. Each slide is a real React component — not a static image — so you get animated transitions, progressive reveals, clickable elements, live charts, and keyboard navigation out of the box. Produces handcrafted slides that feel intentional — never generic or AI-generated looking.
 
-<video src="examples/demo.mp4" controls width="100%"></video>
+<video src="https://github.com/code-on-sunday/slide-deck-generator/releases/download/v1.0.0/demo.mp4" controls width="100%"></video>
 
 > **Watch the demo video above** to see interactive slides in action.
 
