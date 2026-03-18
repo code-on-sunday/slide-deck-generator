@@ -1,11 +1,14 @@
 # Slide Deck Generator
 
-An AI skill for coding agents that creates production-ready, browser-based presentation slide decks using React + Vite + Framer Motion. Produces handcrafted slides that feel intentional — never generic or AI-generated looking.
+An AI skill for coding agents that creates production-ready, browser-based presentation slide decks with **interactive UI** using React + Vite + Framer Motion. Each slide is a real React component — not a static image — so you get animated transitions, progressive reveals, clickable elements, live charts, and keyboard navigation out of the box. Produces handcrafted slides that feel intentional — never generic or AI-generated looking.
 
-![Context Engineering Example](examples/en-context-engineering.png)
+[![Demo Video](examples/en-context-engineering.png)](https://youtu.be/TpKL3WY_lmE)
+
+> **[Watch the demo video](https://youtu.be/TpKL3WY_lmE)** to see interactive slides in action.
 
 ## Features
 
+- **Interactive UI** — Every slide is a live React component with animations, transitions, and interactive elements
 - **11 style presets** — Dark, light, and specialty themes with curated font pairings and color palettes
 - **Anti AI-slop design system** — Strict rules that prevent generic-looking output
 - **Animated presentations** — Framer Motion animations matched to presentation mood
@@ -73,6 +76,8 @@ Claude will:
 | **Paper & Ink** | Editorial | Drop caps, pull quotes, elegant rules |
 
 ## Examples
+
+**[View all example slides live](https://codeonsunday.com/make/slides)**
 
 See the [`examples/`](examples/) directory for complete, runnable slide decks:
 
